@@ -22,40 +22,33 @@
 </nav>	
 
 <body>
-<center>
-  <div id="slideshow-wrap">
-        <input type="radio" id="button-1" name="controls" checked="checked"/>
-        <label for="button-1"></label>
-        <input type="radio" id="button-2" name="controls"/>
-        <label for="button-2"></label>
-        <input type="radio" id="button-3" name="controls"/>
-        <label for="button-3"></label>
-        <input type="radio" id="button-4" name="controls"/>
-        <label for="button-4"></label>
-        <input type="radio" id="button-5" name="controls"/>
-        <label for="button-5"></label>
-        <label for="button-1" class="arrows" id="arrow-1"></label>
-        <label for="button-2" class="arrows" id="arrow-2"></label>
-        <label for="button-3" class="arrows" id="arrow-3"></label>
-        <label for="button-4" class="arrows" id="arrow-4"></label>
-<label for="button-5" class="arrows" id="arrow-5"></label>
-        <div id="slideshow-inner">
-            <ul>
-                <li id="slide1">
-                    <img src="Media/Collections/Rio_On_Film/01.jpg" alt="Rio 1"/>
-                <li id="slide2">
-                    <img src="Media/Collections/Rio_On_Film/02.jpg" alt="Rio 2"/>
-<li id="slide3">
-                    <img src="Media/Collections/Rio_On_Film/03.jpg" alt="Rio 3"/>
-                <li id="slide4">
-                    <img src="Media/Collections/Rio_On_Film/04.jpg" alt="Rio 4"/>
-<li id="slide5">
-                    <img src="Media/Collections/Rio_On_Film/05.jpg" alt="Rio 5"/>
-<br>
-</li>
-</center>
-<br>
-<br>
+
+<!-- Flexslider CSS and JS -->
+<link rel="stylesheet" href="flex/css/flexslider.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="flex/js/jquery.flexslider.js"></script>
+
+<!-- Load the flexslider -->
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider({
+          animation: "fade",  // slide or fade
+          controlsContainer: ".flex-container" // the container that holds the flexslider
+    });
+  });
+</script>
+
+<!-- Slider Container and Images -->
+<div style="padding:15%;">
+	<div class="flexslider">
+ 		<ul class="slides">
+	 		<li><img src="Media/Collections/Rio_On_Film/01.jpg" /></li>
+	 		<li><img src="Media/Collections/Rio_On_Film/02.jpg" /></li>
+	 		<li><img src="Media/Collections/Rio_On_Film/03.jpg" /></li>
+	 	</ul>
+	 </div>
+</div>
+
 </body>
 
 <footer>

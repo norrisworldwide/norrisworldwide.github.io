@@ -74,6 +74,8 @@ footer {
 	background-color: black;
 	height: 70px;
 	position: relative;
+	width: 100%;
+    bottom: 0;
 }
 
 span {
@@ -125,7 +127,7 @@ p.cr {
 	color: white;
 	display: inline-block;
 	position: absolute;
-	top: 15%;
+	top: 40%;
 	left: 45%;
 }
 
