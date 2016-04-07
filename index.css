@@ -54,7 +54,7 @@ h4 {
 }
 
 #main, object{
-	max-width:80%;
+	max-width:70%;
 	border: 20px solid white;
 }
 
@@ -131,8 +131,7 @@ p.cr {
 	left: 45%;
 }
 
-//SOMETHING FROM HERE ONWARDS//
-//CURRENTLY THE OVERFLOW IS TO THE RIGHT, IF IT SET OVERFLOW HIDDEN, IT ALSO HIDES THE RADIO BUTTONS//
+////////////////////////////////////////////////
 
 div#slider figure img { 
 width: 80%; 
