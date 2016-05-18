@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+/* -------------------- TO DO
+- menu is not quite centered?
+- Dropdown under word hovering over
+- footer at bottom of page
+- fonts
+ -------------------- */
+
+
+
+#all {
+    width: 100%;
+    max-width: 960px;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+#header {
+	width: 100%;
+    max-width: 960px;
+  	margin-left: auto;
+  	margin-right: auto;	
+}
+
+
+
+/* -------------------- MAIN MENU -------------------- */
+
+li {
+    display: inline;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+
+#menu {
+    list-style: none;
+    font-family: Vollkorn;
+    font-weight: 400;
+    font-size: large;
+}
+
+#menu > li > a:hover {
+    color: black;
+    }
+
+#menu > li.sub {
+    position: relative;
+    display: inline-block;
+    }
+
+#menu > li.sub ul {
+    margin: 5px;
+    padding: 5px;
+    float: left;
+    list-style: none;
+    background: black;
+    position: absolute;
+    top: -4000em;
+    display: inline-block;
+    }
+
+#menu li.sub ul li a {
+    height: 5px;
+    padding: 5px;
+    color: white;
+    }
+
+#menu > li.sub:hover ul {
+    top: 13px;
+    display: inline-block;
+    }
+
+#outer {
+	width: 100%;
+	text-align: center;
+}
+
+#inner {
+  	display: inline-block;
+}
+
+#menu{
+    text-align: center;
+}
+
+
+
+/* -------------------- FOOTER -------------------- */
+
+
+#contents {
+    width: 100%;
+    height: 100%;
+    max-width: 960px;
+    align: center;
+    margin: 0 auto;
+    font-family: Georgia;
+}
+
+
+
+/* -------------------- FOOTER -------------------- */
+
+
+
+#footer {
+    font-size: small;
+    font-family: Georgia;
+    position: absolute;
+    text-align: center;
+    width:100%;
+    max-width: 960px;
+    height: 30px;
+    bottom:0;
+    background: black;
+}
+
+#footer p {
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+
+
+/* -------------------- LINKS -------------------- */
+
+
+
+a:link {
+    color: #007abd;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #d92933;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: #3aa640;
+    text-decoration: underline;
+}
