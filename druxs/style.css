@@ -40,8 +40,9 @@ li {
     }
 
 #menu > li.sub ul {
-    margin: 5px;
-    padding: 5px;
+	left: -1px;
+    margin: 10px;
+    padding: 0;
     height: auto;
     float: left;
     list-style: none;
@@ -49,6 +50,10 @@ li {
     position: absolute;
     top: -4000em;
     display: inline-block;
+    }
+
+#menu ul li ul li:hover {
+    text-decoration: underline;
     }
 
 #menu li.sub ul li a {
@@ -60,7 +65,7 @@ li {
 #menu > li.sub:hover ul {
     top: 13px;
     display: inline-block;
-    }
+    }   
 
 #outer {
 	width: 100%;
