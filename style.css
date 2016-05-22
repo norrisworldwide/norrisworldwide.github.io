@@ -152,7 +152,7 @@ a:active {
 /* -------------------- OTHER -------------------- */
 
 
-ul #services ul li {
-    float: left;
-    display: block;
+#thumbs {
+    margin: auto;
+    text-align: center;
 }
