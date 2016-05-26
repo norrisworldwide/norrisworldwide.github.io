@@ -168,3 +168,37 @@ a:active {
 #shop {
     width: 100%;
 }
+
+p {
+    text-align: justify;
+}
+
+
+/*-------- IMAGES --------*/
+
+#partners {
+    margin-left: 20px;
+}
+
+#eBay {
+    border-style: solid;
+    border-color: black;
+    padding-left: 20px;
+    margin-left: 20px;
+
+}
+
+#buckle {
+    margin-left: 20px;
+
+}
+
+#crash {
+    margin-left: 20px;
+
+}
+
+#club {
+    margin-left: 20px;
+
+}

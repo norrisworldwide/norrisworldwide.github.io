@@ -45,29 +45,25 @@
 <ul id="menu" >
     <li><a href="index.html">Home</a></li>
     <li class="sub"><a href="services.html">Services ▼</a>
-    	<ul>
-    	<li><a href="restoration.html">Restoration</a></li>
-    	<li><a href="rim.html">Rim Repair</a></li>
-    	<li><a href="accidents.html">Accidents & Repairs</a></li>
-    	<li><a href="photoshoots.html">Photoshoots</a></li>
-    	</ul>
+        <ul>
+        <li><a href="restoration.html">Restoration</a></li>
+        <li><a href="rim.html">Rim Repair</a></li>
+        <li><a href="accidents.html">Accidents & Repairs</a></li>
+        <li><a href="photoshoots.html">Photoshoots</a></li>
+        </ul>
     </li>
-    <li class="sub"><a href="onlinestore.html">Online Store ▼</a>
-    	<ul>
-    	<li><a href="bikes.html">Bikes</a></li>
-    	<li><a href="clothing.html">Clothing</a></li>
-    	</ul>
-    </li>
+    <li><a href="onlinestore.html">Online Store</a></li>
     <li><a href="club.html">Club</a></li>
     <li><a href="contact.html">Contact</a></li>
 </ul>
-</div>   
+</div>  
 
 
 
 
 <div id="contents">
 <hr width="100%" size="5" color="black">
+<p>
 <br>
 A high quality bicycle that doesn't have photos taken of it is incomplete. Proud collectors will present their museum pieces. 
 <br>
@@ -78,7 +74,40 @@ In our bike photo studio we can produce a complete series of photos of your coll
 Some examples of our great work can be seen below.
 <br>
 <br>
+</p>
+<!-- Flexslider CSS and JS -->
+<link rel="stylesheet" href="flex/css/flexslider.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="flex/js/jquery.flexslider.js"></script>
 
+<!-- Load the flexslider -->
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider({
+          animation: "fade",  // slide or fade
+          controlsContainer: ".flex-container" // the container that holds the flexslider
+    });
+  });
+</script>
+
+<!-- Slider Container and Images -->
+<div style="width:70%; margin:0 auto;">
+    <div class="flexslider">
+        <ul class="slides">
+            <li><img src="media/studio/1.jpg" alt="studio"/></li>
+            <li><img src="media/studio/2.jpg" alt="studio"/></li>
+            <li><img src="media/studio/3.jpg" alt="studio"/></li>
+            <li><img src="media/studio/4.jpg" alt="studio"/></li>
+            <li><img src="media/studio/5.jpg" alt="studio"/></li>
+            <li><img src="media/studio/6.jpg" alt="studio"/></li>
+            <li><img src="media/studio/7.jpg" alt="studio"/></li>
+            <li><img src="media/studio/8.jpg" alt="studio"/></li>
+            <li><img src="media/studio/9.jpg" alt="studio"/></li>
+        </ul>
+     </div>
+</div>
+<br>
+<br>
 </div>
 
 
